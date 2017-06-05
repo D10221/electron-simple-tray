@@ -10,4 +10,4 @@ debug.formatters.w = (x: any) => `warning: ${x}`;
  *
  * @param subKey Create prefixed debugger
  */
-export const createDebug = (subKey: string) => debug("quick-tray:" + subKey);
+export const createDebug = (subKey: string) => debug("simple-tray:" + subKey);
