@@ -1,8 +1,9 @@
 # built/
 node_modules/
 src
-built/__demo__
-built/__test__
 tsconfig.json
+tsconfig.prod.json
 tslint.json
 tsfmt.json
+scripts/
+resources/

@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "jsx": "react",
+        "outDir": "./dist",
+        "noImplicitAny": true, 
+        "strictNullChecks": false, 
+        "noImplicitThis": true, 
+        "alwaysStrict": true,        
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,   
+        "declaration": true
+    },
+    "include": [
+        "./src/**/*.ts",
+        "./src/**/*.tsx"
+    ],
+    "exclude": [
+        "./src/__demo__/**/*",
+        "./src/__test__/**/*"
+    ]
+}

@@ -2,7 +2,8 @@
   "name": "simple-tray",
   "version": "0.0.1-0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "private": true,
   "scripts": {
     "test": "node ./scripts/test.js --debug off",
@@ -11,10 +12,10 @@
     "build": "npm run build:ts && npm run build:css",
     "clean": "rimraf ./built",
     "rebuild": "node ./scripts/rebuild.js",
-    "start": "electron ./built/__demo__/main.js",
     "doc": "rimraf docs && typedoc --theme minimal --out docs --mode file --exclude \"**/__test__//*\"  --excludeNotExported",
     "dist": "tsc -p tsconfig.prod.json",
-    "redist": "rimraf ./dist && npm run dist"
+    "redist": "rimraf ./dist && npm run dist",
+    "start": "npm run build && electron ./built/__demo__/main.js"
   },
   "keywords": [
     "electron",

@@ -7,3 +7,14 @@ todo:
 tests,  on mac
 
 replace all pseudo observable stuff with rxjs
+
+
+notes: 
+
+/built "contains dev build"  
+/dist ""contains distributable"  
+not es5 compatible  
+simple npm tasks based build  
+start demo 
+    
+    "npm run start"
