@@ -13,8 +13,8 @@ notes:
 
 /built "contains dev build"  
 /dist ""contains distributable"  
-not es5 compatible 
-debug top namespace "simple-tray:" 
+not es5 compatible   
+debug top namespace "simple-tray:"   
 simple npm tasks based build  
 start demo 
     
