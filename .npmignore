@@ -1,0 +1,8 @@
+# built/
+node_modules/
+src
+built/__demo__
+built/__test__
+tsconfig.json
+tslint.json
+tsfmt.json

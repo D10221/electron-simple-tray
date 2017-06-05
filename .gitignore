@@ -1,0 +1,9 @@
+**/node_modules/*
+**/.vscode/*
+**/built/*
+*.log
+**/.secrets/*
+*.zip
+**/dist/*
+**/lib/*
+
